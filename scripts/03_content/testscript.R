@@ -7,7 +7,7 @@ data("data_lionfish")
 plot1 = ggplot(data = data_lionfish,
                mapping = aes(x = total_length_mm, y = depth_m)) +
   geom_point() +
-  geom_smooth(method='lm', colour="purple") +
+  geom_smooth(method='lm', colour="yellow") +
   labs(title = "Depth Length Relationship") +
   xlab("Total Length (mm)") +
   ylab("Depth (m)") +
